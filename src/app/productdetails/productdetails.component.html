@@ -1,0 +1,27 @@
+<div class="container">
+    <app-navbar></app-navbar>
+<table>
+    <thead>
+        <tr>
+            <td>Title</td>
+            <td>Description</td>
+            <td>Price</td>
+            <td>Discount</td>
+            <td>images</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>{{productDetailsdata.title}}</td>
+            <td>{{productDetailsdata.description}}</td>
+            <td>{{productDetailsdata.price}}</td>
+            <td>{{productDetailsdata.discount}}</td>
+            <td *ngFor="let image of productDetailsdata.images">
+                <img [src]="image">
+            </td>
+        </tr>
+    </tbody>
+</table> 
+ <button (click)="add()">Add to Cart</button>
+ <!-- <button mat-button color="primary" (click)="add()">Add</button> -->
+</div>

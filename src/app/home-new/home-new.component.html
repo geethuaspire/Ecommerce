@@ -1,0 +1,64 @@
+<div class="container">
+  <app-navbar></app-navbar>
+<mat-drawer-container class="example-container">
+    <mat-drawer mode="side" opened>
+       <mat-list role="list" *ngFor="let pr of prodData">
+            <mat-list-item role="listitem" ><a routerLink="/home">{{pr.prod_name}}</a></mat-list-item>
+          </mat-list>
+       </mat-drawer>
+    <mat-drawer-content>
+
+       <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+             <div>
+              <mat-card class="example-card">
+                <mat-card-header>
+                  <mat-card-title><a routerLink="">Amazon Pay|Book travel tickets</a></mat-card-title>
+                </mat-card-header>
+                <img mat-card-image class="scratchimg" src="../../assets/images/ce-travel (1).jpg" alt="Photo of a Shiba Inu">
+                <mat-card-content>
+                </mat-card-content>
+                <mat-card-actions>
+                 
+                </mat-card-actions>
+              </mat-card>
+
+
+             </div>
+             <div>
+              <mat-card class="example-card">
+                <mat-card-header>
+                  <mat-card-title><a routerLink="">Shop & Pay | Earn rewards daily</a></mat-card-title>
+                </mat-card-header>
+                <img mat-card-image class="scratchimg" src="../../assets/images/images (1).jpg" alt="Photo of a Shiba Inu">
+                <mat-card-content>
+                </mat-card-content>
+                <mat-card-actions>
+                </mat-card-actions>
+              </mat-card>
+
+
+            </div>
+            <div>
+              <mat-card class="example-card">
+                <mat-card-header>
+                  <mat-card-title><a routerLink="">Up to 90% off | Clearance store</a></mat-card-title>
+                </mat-card-header>
+                <img mat-card-image src="../../assets/images/Clearance_store_Desktop_CC_1x._SY304_CB628315133_.jpg" alt="Photo of a Shiba Inu">
+                <mat-card-content>
+                </mat-card-content>
+                <mat-card-actions>
+                  <!-- <button mat-button>BUY NOW</button> -->
+                </mat-card-actions>
+              </mat-card>
+             </div>
+              </div>
+                </div>
+                 </div>
+
+       </mat-drawer-content>
+  </mat-drawer-container>
+  
+</div>
+

@@ -1,0 +1,144 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Nokia",
+      "description": "works good",
+      "price": 5462,
+      "discount": 200,
+      "images": [
+        "https://imageio.forbes.com/blogs-images/davidphelan/files/2018/02/IMG_1126-1200x900.jpg?format=jpg&width=1200",
+        "https://5.imimg.com/data5/CV/HH/MY-54908028/nokia-mobile-phone-500x500.png"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Nokia",
+      "description": "good",
+      "price": 7860,
+      "discount": 200,
+      "images": []
+    },
+    {
+      "id": 2,
+      "title": "Apple",
+      "description": "Amazing performance",
+      "price": 546432,
+      "discount": 5000,
+      "images": [
+        "https://images.xtracover.com/Apple_Apple-iPhone-X-Space-Gray-256-GB-_SYDO_1653041308.webp?q=5548&original=Apple_Apple-iPhone-X-Space-Gray-256-GB-_SYDO_1653041308.JPEG",
+        "https://images.xtracover.com/APPLE_IPHONE-7-BLACK-32-GB-2-GB-RAM-_XIGRN.webp?q=5548&original=APPLE_IPHONE-7-BLACK-32-GB-2-GB-RAM-_XIGRN.JPG"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Motorola",
+      "description": "Motorola X has good performance",
+      "price": 3454,
+      "discount": 200,
+      "images": [
+        "https://images-eu.ssl-images-amazon.com/images/I/41jB83Wt2VL._SX300_SY300_QL70_FMwebp_.jpg",
+        "https://images-eu.ssl-images-amazon.com/images/I/41jB83Wt2VL._SX300_SY300_QL70_FMwebp_.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "One Plus",
+      "description": "good in performance and quality",
+      "price": 7876,
+      "discount": 1000,
+      "images": [
+        "https://images-eu.ssl-images-amazon.com/images/I/41R9oD3K25L._SX300_SY300_QL70_FMwebp_.jpg",
+        "https://m.media-amazon.com/images/I/716uVx3Wr5L._SX569_.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Samsung",
+      "description": "good in performance and quality",
+      "price": 7876,
+      "discount": 1000,
+      "images": [
+        "https://images-eu.ssl-images-amazon.com/images/I/51S-5gFoUAL._SX300_SY300_QL70_FMwebp_.jpg",
+        "https://images-eu.ssl-images-amazon.com/images/I/51-dl8FXNAL._SX300_SY300_QL70_FMwebp_.jpg"
+      ]
+    }
+  ],
+  "prod": [
+    {
+      "prod_name": "Mobile Phone"
+    },
+    {
+      "prod_name": "TV"
+    },
+    {
+      "prod_name": "Refridgerator"
+    },
+    {
+      "prod_name": "Microwave Oven"
+    },
+    {
+      "prod_name": "Washing Machine"
+    },
+    {
+      "prod_name": "Laptop"
+    }
+  ],
+  "pr": [
+    {
+      "id": 1,
+      "title": "Nokia",
+      "description": "works good",
+      "price": 5462,
+      "discount": 200,
+      "images": [
+        "https://www.istockphoto.com/photos/nature",
+        "https://pixabay.com/images/search/nature/"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Apple",
+      "description": "Amazing performance",
+      "price": 546432,
+      "discount": 5000,
+      "images": [
+        "https://images.xtracover.com/Apple_Apple-iPhone-X-Space-Gray-256-GB-_SYDO_1653041308.webp?q=5548&original=Apple_Apple-iPhone-X-Space-Gray-256-GB-_SYDO_1653041308.JPEG",
+        "https://images.xtracover.com/APPLE_IPHONE-7-BLACK-32-GB-2-GB-RAM-_XIGRN.webp?q=5548&original=APPLE_IPHONE-7-BLACK-32-GB-2-GB-RAM-_XIGRN.JPG"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "One Plus",
+      "description": "good in performance and quality",
+      "price": 7876,
+      "discount": 1000,
+      "images": [
+        "https://images-eu.ssl-images-amazon.com/images/I/41R9oD3K25L._SX300_SY300_QL70_FMwebp_.jpg",
+        "https://m.media-amazon.com/images/I/716uVx3Wr5L._SX569_.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Samsung",
+      "description": "good in performance and quality",
+      "price": 7876,
+      "discount": 1000,
+      "images": [
+        "https://images-eu.ssl-images-amazon.com/images/I/51S-5gFoUAL._SX300_SY300_QL70_FMwebp_.jpg",
+        "https://images-eu.ssl-images-amazon.com/images/I/51-dl8FXNAL._SX300_SY300_QL70_FMwebp_.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Motorola",
+      "description": "Motorola X has good performance",
+      "price": 3454,
+      "discount": 200,
+      "images": [
+        "https://images-eu.ssl-images-amazon.com/images/I/41jB83Wt2VL._SX300_SY300_QL70_FMwebp_.jpg",
+        "https://images-eu.ssl-images-amazon.com/images/I/41jB83Wt2VL._SX300_SY300_QL70_FMwebp_.jpg"
+      ]
+    }
+  ]
+}

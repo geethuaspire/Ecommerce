@@ -1,0 +1,28 @@
+
+<div class="container">
+    <app-navbar></app-navbar>
+    <table>
+        <thead>
+            <tr>
+                <td>Title</td>
+                <td>Description</td>
+                <td>Price</td>
+                <td>Discount</td>
+                <td>Images</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let cart of cartData">
+                <td>{{cart.title}}</td>
+                <td>{{cart.description}}</td>
+                <td>{{cart.price}}</td>
+                <td>{{cart.discount}}</td>
+                <td *ngFor="let image of cartData.images">
+                    <img [src]="image">
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+
+</div>
